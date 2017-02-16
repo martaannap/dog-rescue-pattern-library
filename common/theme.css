@@ -1,0 +1,13 @@
+:root {
+  --color-primary:#35b28a;
+  --color-secondary-dark: #1f4f40;
+  --color-secondary-light: white;
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Oswald", sans-serif;
+
+}
+
+html  {
+  font-family: var(--font-primary);
+
+}
