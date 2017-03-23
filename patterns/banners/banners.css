@@ -1,0 +1,14 @@
+.btn-banner {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-secondary-light);
+
+}
+
+.banner {
+  background-image: linear-gradient(to top, transparent, rgba(255, 255, 255, .5)), url("../../images/dog-banner.jpg");
+  background-size: cover;
+  background-position: left top;
+  width: 100%;
+  display:block;
+}

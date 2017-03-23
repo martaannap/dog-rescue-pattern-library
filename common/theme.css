@@ -2,6 +2,7 @@
   --color-primary: #35b28a;
   --color-secondary-dark: #1f4f40;
   --color-secondary-light: white;
+  --color-secondary-accent: pink;
   --font-primary: "Lato", sans-serif;
   --font-secondary: "Oswald", sans-serif;
 
@@ -12,6 +13,32 @@ html {
 
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary);
+}
+
+a {
+  color: var(--color-secondary-accent);
+}
+
+ul, dl, ol {
+  color: var(--color-primary);
+}
+
+dl, dt, dd {
+  color: var(--color-secondary-dark);
+}
+
+blockquote, cite {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary-dark);
+}
+
+em, strong, del, ins, abbr, dfn, i, b, s, u {
+  color: var(--color-secondary-dark);
+}
+
+mark {
+  background-color: var(--color-primary);
+  color: var(--color-secondary-light);
 }

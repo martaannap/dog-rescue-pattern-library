@@ -25,6 +25,10 @@
 
 }
 
+.content p {
+  color: var(--color-secondary-light);
+}
+
 .info-card {
   position: relative;
 }
@@ -44,4 +48,8 @@
 
 .info-card p {
   color: var(--color-secondary-light);
+}
+
+a {
+  overflow: hidden;
 }
