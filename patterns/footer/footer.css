@@ -2,6 +2,10 @@ footer {
   background-color: var(--color-primary);
 }
 
+footer i {
+  color: var(--color-secondary-light);
+}
+
 @media only screen and (min-width: 60em) {
 
 .contact {
