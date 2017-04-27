@@ -9,9 +9,15 @@
 
 }
 
+.is-validated select:invalid,
+.is-validated select[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+
+}
+
 .error-message {
   display: none;
-  background-color: #fee;
+  background-color: #c33;
   color: #c33;
 
 }
@@ -24,6 +30,7 @@
 
 .is-validated > .error-message:first-child,
 .is-validated input:invalid + .error-message,
+.is-validated select:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
 
@@ -31,4 +38,8 @@
 
 form h3 {
   color: white;
+}
+
+input, textarea, select {
+  border-color: var(--color-primary);
 }

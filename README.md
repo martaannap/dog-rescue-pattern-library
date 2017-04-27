@@ -5,16 +5,16 @@ fonts:
   primary: |
     The primary typeface is a clear and legible sans-serif font.
 
-    Use the primary typeface for body copy.   
+    Use the primary typeface for titles, subtitles, buttons and emphasis.  
   secondary: |
-    The secondary typeface is a compressed sans-serif.
+    The secondary typeface is a clean and legible compressed sans-serif.
 
-    The secondary typeface should be used for titles, subtitles, buttons and emphasis.
+    Use the secondary typeface for body copy.
 colors:
   primary: |
-    The primary color is a dark green used to represent a calm trusting and loyal feeling. It is used for body copy and buttons
+    The primary color is a vibrant green used to represent a happy yet calm trusting and loyal feeling. It is used for headings, buttons, masthead and footer.
   secondary: |
-    The secondary colors are light green and white. Use it for titles and buttons.
+    The secondary colors are dark green white and pink. Use the dark green for titles and for accent purposes. Use white for any type that is over the primary green. Pink is only to be used as link.
 ---
 
 Support Loyal Rescue. Adopt don't shop!

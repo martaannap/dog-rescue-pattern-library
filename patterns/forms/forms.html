@@ -13,15 +13,20 @@
 </head>
 <body>
 
+  <section class="grid max-length push">
+  <h1 class="unit text-center xs-1">How We Work</h1>
+  <blockquote class="unit text-center xs-1 s-1 m-1 l-1 gutter-1-2">LOYAL Rescue Inc. is a foster-based rescue and we do not operate a shelter. We do not have viewing hours as each pet is in a private home. Should you be the successful applicant for this pet, you are then welcome to come and meet the dog. You are not obligated to adopt, should you determine the fit is not correct, however we must go through this process prior to meeting the dog.</blockquote>
+</section>
+
   <form class="max-length island" method="post" novalidate>
-  <div class="grid">
-    <div class="unit xs-1 error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
       <h3 class="push-0">
         <i class="icon i-32"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
         <span class="icon-label">There are items that require your attention</span>
       </h3>
     </div>
 
+  <div class="grid">
     <div class="unit xs-1 push-1-2 gutter-1-2">
       <label for="name">Name</label>
       <input id="name" required aria-describedby="name-error">
@@ -36,7 +41,7 @@
       <input type="email" id="email" required aria-describedby="email-error">
       <p class="error-message milli island-1-4 push-0" id="email-error">
         <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error"/></svg></i>
-        <span class="icon-label">Please provide a properly formatted email address</span>
+        <span class="icon-label">Please provide a valid email address</span>
       </p>
     </div>
 
@@ -57,7 +62,7 @@
     <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-2">
       <div class="push-1-2">
         <label for="province" class="push-1-8">Province</label>
-        <select id="province" placeholder="Please select a province">
+        <select id="province" placeholder="Please select a province" required aria-describedby="province-error">
           <option value=""></option>
           <option>Ontario</option>
           <option>Quebec</option>
@@ -65,13 +70,21 @@
           <option>New Found Land</option>
           <option>North West Terrriories</option>
         </select>
+        <p class="error-message milli island-1-4 push-0" id="province-error">
+          <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error"/></svg></i>
+          <span class="icon-label">Please choose your province</span>
+        </p>
       </div>
     </div>
 
         <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-2">
           <div class="push-1-2">
             <label for="birthday" class="push-1-8">Date of birth</label>
-            <input type="date" id="birthday">
+            <input type="date" id="birthday" required aria-describedby="birthday-error">
+            <p class="error-message milli island-1-4 push-0" id="birthday-error">
+              <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error"/></svg></i>
+              <span class="icon-label">Please choose your date of birth</span>
+            </p>
           </div>
         </div>
 

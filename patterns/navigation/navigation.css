@@ -1,0 +1,14 @@
+label {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+select {
+  border-color: var(--color-primary);
+  color: var(--color-secondary-dark);
+  font-family: var(--font-primary);
+}
+
+ select:focus {
+  outline-color: var(--color-secondary-dark);
+}

@@ -12,3 +12,7 @@
   width: 100%;
   display:block;
 }
+
+.hang-punc {
+  color: var(--color-secondary-dark);
+}
