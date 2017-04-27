@@ -9,6 +9,6 @@ select {
   font-family: var(--font-primary);
 }
 
- select:focus {
+select:focus {
   outline-color: var(--color-secondary-dark);
 }

@@ -39,6 +39,15 @@ blockquote, cite {
   color: var(--color-secondary-dark);
 }
 
+q, p {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-dark);
+}
+
+small {
+  color: var(--color-secondary-dark);
+}
+
 em, strong, del, ins, abbr, dfn, b, s, u {
   color: var(--color-secondary-dark);
 }
